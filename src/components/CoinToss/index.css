@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-family: 'roboto';
+}
+.tossLogo {
+  height: 150px;
+}
+.HeadOrTail {
+  color: #334155;
+  font-family: 'roboto';
+  font-weight: bold;
+  margin: 0px;
+}
+.btn {
+  background-color: #f9d423;
+  border-radius: 3px;
+  border-width: 0px;
+  outline: none;
+  padding: 5px;
+  color: #a35200;
+  font-weight: 600;
+}
+.report {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.para {
+  margin: 5px;
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 500;
+}
